@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: black;
+}
+.container{
+
+    margin: 20px;
+    padding: 50px;
+    color: whitesmoke;
+}
+.form-container{
+    display: flex;
+
+    font-size: 20px;
+    font-weight: 600;
+    row-gap: 30px;
+    padding: 20px;
+}
+.form-container label{
+    padding-left: 50px;
+}
+input[type="text"],  input[type="number"]{
+    border: none;
+    color: white;
+    height: 33px;
+    margin: 6px 10px;
+    font-size: 16px;
+    border: 1px solid white;
+    border-radius: 10px;
+    text-align: center;
+}
+
+
+input[type="text"]::placeholder, input[type="number"]::placeholder{
+    color: white;
+    
+}
+.list-container{
+    margin: 10px;
+    padding: 40px;
+    
+}
+th,td{
+    border: 1px solid white;
+    padding: 10px;
+    background-color: darksalmon;
+    color: black;
+    font-size: 18px;
+    font-weight: 800;
+    text-align: center;
+    align-items: center;
+}
+th{
+    background-color: rgb(92, 205, 130);
+}
+table{
+    border-collapse: collapse;
+    width: 100%;
+   
+}
+.btn{
+    padding: 20px;
+}
+.btn span{
+    display: block;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 20px;
+}
+button{
+    width: fit-content;
+    background-color: rgb(190, 221, 137);
+    padding: 10px;
+    font-size: 15px;
+    font-weight: 700;
+    text-align: center;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+table button{
+    
+    background-color:white;
+    
+
+    
+}
